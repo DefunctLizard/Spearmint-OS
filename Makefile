@@ -19,6 +19,7 @@ mount-iso:
 
 unpack-filesystem:
 	mkdir ./squashfs
+	mv ./debian-cd/live/filesystem.squashfs .
 	unsquashfs -f -d ./squashfs ./debian-cd/live/filesystem.squashfs
 
 pack-filesystem:
