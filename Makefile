@@ -1,4 +1,4 @@
-	unsquashfs -f -d ./squashfs ./debian-cd/live/filesystem.squashfs# Makefile to create ISO images of Spearmint OS
+# Makefile to create ISO images of Spearmint OS
 
 all:
 	make download-iso
