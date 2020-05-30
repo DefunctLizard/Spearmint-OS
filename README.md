@@ -11,9 +11,6 @@ live-build
 ## Building
 Building is very simple, just do:
 ```
-$ lb config --config https://github.com/DefunctLizard/spearmint-os.git::debian
-```
-And:
-```
 # lb build
 ```
+It will then create an ISO that you can burn to a CD, DVD, flash drive, or run in a virtual machine.
