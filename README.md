@@ -1,6 +1,19 @@
 # spearmint-os
 Spearmint OS is a Linux Distribution based on Debian GNU/Linux
 
-**Work is still being done on the pre-alpha version, so hold on a few days before I get the project up and running.**
+**This project is still in pre-alpha**
 
-\- Grant Handy
+## Dependencies
+```
+live-build
+```
+
+## Building
+Building is very simple, just do:
+```
+$ lb config --config https://github.com/DefunctLizard/spearmint-os.git::debian
+```
+And:
+```
+# lb build
+```
