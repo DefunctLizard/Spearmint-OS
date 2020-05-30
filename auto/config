@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+	--architectures amd64 \
+	--mirror-bootstrap http://mirrors.xmission.com/debian/ \
+	--mirror-binary http://mirrors.xmission.com/debian/ \
+
+	"${@}"
