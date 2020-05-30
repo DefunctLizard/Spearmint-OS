@@ -8,4 +8,7 @@ lb config noauto \
 	--mirror-binary http://mirrors.xmission.com/debian/ \
 	--archive-areas "main" \
 	--distribution buster \
+	--apt-recommends false \
+	--debootstrap-options "--variant=minbase" \
+	--memtest none \
 	"${@}"
