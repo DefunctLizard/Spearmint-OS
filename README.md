@@ -2,8 +2,6 @@
 
 <p align="center">Spearmint OS is a Linux Distribution based on Debian GNU/Linux that can fit on a 700MB CD</p>
 
-**This project is still in pre-alpha**
-
 ## Dependencies
 ```
 live-build live-config
