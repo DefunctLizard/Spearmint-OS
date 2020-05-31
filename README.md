@@ -1,16 +1,15 @@
-# spearmint-os
-Spearmint OS is a Linux Distribution based on Debian GNU/Linux
+<h1 align="center">Spearmint OS</h1>
 
-**This project is still in pre-alpha**
+<p align="center">Spearmint OS is a Linux Distribution based on Debian GNU/Linux that can fit on a 700MB CD</p>
 
 ## Dependencies
 ```
-live-build
+live-build live-config
 ```
 
 ## Building
 Building is very simple, just do:
 ```
-# lb build
+# lb config && lb build
 ```
 It will then create an ISO that you can burn to a CD, DVD, flash drive, or run in a virtual machine.
