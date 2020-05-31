@@ -9,6 +9,7 @@ lb config noauto \
 	--archive-areas "main" \
 	--distribution buster \
 	--apt-recommends false \
+	--apt-indices false \
 	--debootstrap-options "--variant=minbase" \
 	--memtest none \
 	"${@}"
