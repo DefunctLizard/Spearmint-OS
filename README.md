@@ -1,6 +1,6 @@
-<h1 align="center">spearmint-os</h1>
+<h1 align="center">Spearmint OS</h1>
 
-<p align="center>Spearmint OS is a Linux Distribution based on Debian GNU/Linux</p>
+<p align="center">Spearmint OS is a Linux Distribution based on Debian GNU/Linux that can fit on a 700MB CD</p>
 
 **This project is still in pre-alpha**
 
