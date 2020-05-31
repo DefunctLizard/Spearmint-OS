@@ -12,4 +12,7 @@ lb config noauto \
 	--apt-indices false \
 	--debootstrap-options "--variant=minbase" \
 	--memtest none \
+	--iso-application Spearmint Live \
+	--iso-preparer Grant Handy \
+	--iso-publisher Spearmint OS Project \
 	"${@}"
