@@ -2,15 +2,21 @@
 
 set -e
 
+case "$(dpkg --print-architecture)" in
+	amd64)
+		_SOURCE="true"
+		;;
+
+	i386)
+		_SOURCE="false"
+		;;
+esac
+
 lb config noauto \
-	--architectures amd64 \
-	--archive-areas "main" \
+	--clean \
+	--ignore-system-defaults \
+	--mode debian \
 	--distribution buster \
-	--apt-recommends false \
-	--apt-indices false \
-	--debootstrap-options "--variant=minbase" \
-	--memtest none \
-	--iso-application Spearmint Live \
-	--iso-preparer Grant Handy \
-	--iso-publisher Spearmint OS Project \
-	"${@}"
+	--linux-packages "linux-image linux-headers" \
+	--source "${_SOURCE}" \
+"${@}"
