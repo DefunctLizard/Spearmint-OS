@@ -4,6 +4,10 @@
 
 <p align="center"><img width=75% src=https://upload.wikimedia.org/wikipedia/commons/2/26/Spearmintos-1.png></p>
 
+# Programs Included
+Spearmint OS includes xfce4, thunar, mousepad, atril, arc-theme, xfce4-terminal, simple-scan, pavucontrol, firefox-esr, libreoffice, mate-calc, ristretto, parole, file-roller, plank, catfish and more!
+
+
 # Using
 Spearmint OS can be used in three ways, in a virtual machine, on a USB flash drive, or on a CD. All of these require an ISO, and an ISO file can be built using your own computer, or downloaded from the <a href=https://github.com/DefunctLizard/spearmint-os/releases>releases page</a>.
 
